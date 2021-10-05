@@ -65,7 +65,7 @@ formulas(assumptions).
         
 %% A3: "If a thief got in, either the door was open or the window was smashed."
 
-        WindowSmashed
+        WindowSmashed | DoorOpen
 
 %% A4: "The window is not smashed."
 
@@ -78,6 +78,6 @@ formulas(goals).
 
 %% GOAL: "The door was open."
 
-          ThiefInhouse
+          DoorOpen
 
 end_of_list.
