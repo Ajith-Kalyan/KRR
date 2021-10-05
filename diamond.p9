@@ -69,7 +69,7 @@ formulas(assumptions).
 
 %% A4: "The window is not smashed."
 
-        DoorOpen
+        -WindowSmashed
 
 
 end_of_list.
