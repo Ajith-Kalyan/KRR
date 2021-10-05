@@ -61,11 +61,11 @@ formulas(assumptions).
 
 %% A2: "If the diamond has been stolen, a thief got into the house."
 
-        ThiefInHouse
+        DiamondStolen -> ThiefInHouse
         
 %% A3: "If a thief got in, either the door was open or the window was smashed."
 
-        WindowSmashed | DoorOpen
+       ThiefInHouse -> (WindowSmashed | DoorOpen)
 
 %% A4: "The window is not smashed."
 
